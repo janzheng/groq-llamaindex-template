@@ -232,7 +232,8 @@ This template serves as a foundation for your AI applications. Key areas for cus
 
 ```
 groq-llamaindex/
-├── js-examples/              # JavaScript examples
+├── js-examples/             # JavaScript examples
+│   ├── .env                 # Stores your Groq API key
 │   ├── rag.js               # RAG demo with semantic search
 │   ├── data-extraction.js   # Structured data extraction
 │   ├── workflow.js          # Multi-step AI workflow
@@ -240,6 +241,7 @@ groq-llamaindex/
 │   ├── sample-data.txt      # Sample knowledge base
 │   └── package.json         # JS dependencies and scripts
 ├── py-examples/             # Python examples
+│   ├── .env                 # Stores your Groq API key
 │   ├── main.py              # Function-calling agent
 │   ├── pyproject.toml       # Python dependencies
 │   └── uv.lock              # Lock file for uv
