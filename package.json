@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@llamaindex/groq": "^0.0.77",
+    "@llamaindex/huggingface": "^0.1.16",
+    "@llamaindex/openai": "^0.4.6",
+    "@llamaindex/workflow": "^1.1.12",
+    "dotenv": "^16.6.1",
+    "llamaindex": "^0.11.11",
+    "zod": "^3.25.67"
+  },
+  "scripts": {
+    "data-extraction": "node data-extraction.js",
+    "workflow": "node workflow.js",
+    "rag": "node rag.js"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
