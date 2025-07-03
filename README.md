@@ -84,16 +84,9 @@ By exploring these templates, you'll learn practical patterns for combining Groq
    cd groq-llamaindex/py-examples
    ```
 
-2. **Initialize and activate virtual environment with uv**
+2. **Install dependencies**
    ```bash
-   # Initialize the project (if not already done)
-   uv init
-   
-   # Create and activate virtual environment
-   uv venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   
-   # Install dependencies
+   # Install dependencies (creates .venv automatically)
    uv sync
    ```
 
